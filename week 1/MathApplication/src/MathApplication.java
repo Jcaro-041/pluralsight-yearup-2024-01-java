@@ -35,6 +35,6 @@ public class MathApplication {
         System.out.println("The absolute of " + absolute + " is " + positive);
         System.out.println();
 
-        System.out.println(Math.round(Math.random()));
+        System.out.println(Math.round(Math.random()* 10));
     }
 }
