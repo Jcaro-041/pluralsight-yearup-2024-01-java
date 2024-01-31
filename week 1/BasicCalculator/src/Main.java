@@ -25,17 +25,13 @@ public class Main {
         System.out.println("Select an operand");
         operand = userInput.nextLine();
 
-        if(operand.equalsIgnoreCase("A"))
-        {
+        if (operand.equalsIgnoreCase("A")) {
             solution = inputOne + inputTwo;
-        }
-        else if(operand.equalsIgnoreCase("S")){
+        } else if (operand.equalsIgnoreCase("S")) {
             solution = inputOne - inputTwo;
-        }
-        else if(operand.equalsIgnoreCase("M")){
+        } else if (operand.equalsIgnoreCase("M")) {
             solution = inputOne * inputTwo;
-        }
-        else{
+        } else {
             solution = inputOne / inputTwo;
         }
         System.out.println(inputOne + "+" + inputTwo + "=" + solution);
