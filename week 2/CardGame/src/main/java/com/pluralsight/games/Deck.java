@@ -8,7 +8,7 @@ public class Deck {
 	private List<Card> listOfCards = new ArrayList<>();
 
 	public Deck() {
-		for (String suit : new String[] { "C", "S", "D", "H" }) {
+		for (String suit : new String[] { "♣", "♠", "♦", "♥" }) {
 			for (String value : new String[] { "A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K" }) {
 				Card currentCard = new Card(suit, value);
 				listOfCards.add(currentCard);
