@@ -24,9 +24,7 @@ public class CardGame
             System.out.println(player.getPlayerName() + " " + card);
         }
         // loop and determine who won
-        if (Hand) value < int 21){
-            System.out.println("works");
-        }
+        System.out.println(Hand, getValue());
         // display the winner
     }
 }
