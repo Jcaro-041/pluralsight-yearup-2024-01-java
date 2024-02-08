@@ -24,7 +24,13 @@ public class CardGame
             System.out.println(player.getPlayerName() + " " + card);
         }
         // loop and determine who won
-        System.out.println(Hand, getValue());
+        Hand winner = players.getFirst();
+        for(Hand player: players){
+            if(player.getValue() > winner.getValue()){
+                winner = player;
+            }
+    }
         // display the winner
+        System.out.println("The winner is " + winner.getPlayerName());
     }
 }
